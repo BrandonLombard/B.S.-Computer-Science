@@ -1,10 +1,11 @@
 1. How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 
-
+Writing programs that are maintainable, readable, and adaptable is no easy task. But when done correctly, it can save you a plethora of time in the future. When I did this, I set up a class in a python module that contains multiple functions, each executing separate tasks. I had one function used as a creation method, another for reading the database entries, an update function, and finally a way to delete entries. With this, I could easily call the function from a test module, such as done in the ProjectTwoDashboard.ipynb file. I could use this over a multitude of other ways, including any time I need to write advanced programs, or programs that pull information from databases. 
 
 2. How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
 
-
+It involves a lot of planning and research. You need to understand exactly what you're going to build before you do it. Then, much testing is needed to ensure your database and dashboard are working. I would continue using these stategies, including creating classes with functions in an organized format. 
 
 3. What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
 
+Computer scientists create computer programs that enable companies like Grazioso Salvare to keep digital records, which in turn makes the company's job easier. This software enables them to view their data with charts and a map, which display the location of canines that could be used for their rescue missions. This allows them to collect and store data to run their company, which is essential for many companies around the world. 
